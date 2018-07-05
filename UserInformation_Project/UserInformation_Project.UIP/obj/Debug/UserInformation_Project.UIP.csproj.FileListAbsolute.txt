@@ -1,6 +1,0 @@
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\bin\Debug\UserInformation_Project.UIP.dll
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\bin\Debug\UserInformation_Project.UIP.pdb
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\obj\Debug\UserInformation_Project.UIP.dll
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\obj\Debug\UserInformation_Project.UIP.pdb
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\bin\Debug\UserInformation_Project.UIP.dll.config
-C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.UIP\obj\Debug\UserInformation_Project.UIP.csprojResolveAssemblyReference.cache
