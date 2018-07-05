@@ -1,0 +1,5 @@
+C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.BIZ\bin\Debug\UserInformation_Project.BIZ.dll
+C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.BIZ\bin\Debug\UserInformation_Project.BIZ.pdb
+C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.BIZ\obj\Debug\UserInformation_Project.BIZ.dll
+C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.BIZ\obj\Debug\UserInformation_Project.BIZ.pdb
+C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\UserInformation_Project.BIZ\obj\Debug\UserInformation_Project.BIZ.csprojResolveAssemblyReference.cache

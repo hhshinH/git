@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E24FAC1B-D7F5-4573-9095-328A4880187C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserInformation_Project</RootNamespace>
+    <AssemblyName>UserInformation_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.2" />
+    <Reference Include="DevExpress.Data.v16.2" />
+    <Reference Include="DevExpress.Images.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core" />
+    <Reference Include="DevExpress.Xpo.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2" />
+    <Reference Include="DevExpress.Printing.v16.2.Core" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v16.2, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v16.2.Core, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v16.2.Extensions, Version=16.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FROM\main\UserInformation_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\main\UserInformation_Project.Designer.cs">
+      <DependentUpon>UserInformation_Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\AttendanceInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\AttendanceInterface.Designer.cs">
+      <DependentUpon>AttendanceInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\CalendarInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\CalendarInterface.Designer.cs">
+      <DependentUpon>CalendarInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\ClassMatchInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\ClassMatchInterface.Designer.cs">
+      <DependentUpon>ClassMatchInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\DrogscheduleInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\DrogscheduleInterface.Designer.cs">
+      <DependentUpon>DrogscheduleInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\KidInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\KidInterface.Designer.cs">
+      <DependentUpon>KidInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FROM\menu\Teachnterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM\menu\Teachnterface.Designer.cs">
+      <DependentUpon>Teachnterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FROM\main\UserInformation_Project.resx">
+      <DependentUpon>UserInformation_Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\AttendanceInterface.resx">
+      <DependentUpon>AttendanceInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\CalendarInterface.resx">
+      <DependentUpon>CalendarInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\ClassMatchInterface.resx">
+      <DependentUpon>ClassMatchInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\DrogscheduleInterface.resx">
+      <DependentUpon>DrogscheduleInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\KidInterface.resx">
+      <DependentUpon>KidInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM\menu\Teachnterface.resx">
+      <DependentUpon>Teachnterface.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PP 새로운 탭,의 HD 벽지, 날씨_1503897729237.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PP 새로운 탭,의 HD 벽지, 날씨_1504166040804.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PP 새로운 탭,의 HD 벽지, 날씨_1504229777425.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\UserInformation_Project.Control\UserInformation_Project.Control.csproj">
+      <Project>{85b07800-8c13-49a7-b6c9-61c8a64f2bbc}</Project>
+      <Name>UserInformation_Project.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UserInformation_Project.UIP\UserInformation_Project.UIP.csproj">
+      <Project>{495f63e8-838d-44e5-a2ff-c7d843237490}</Project>
+      <Name>UserInformation_Project.UIP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
