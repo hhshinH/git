@@ -23,3 +23,5 @@ C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation
 C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\Client_Side\UserInformation_Project\obj\Debug\UserInformation_Project.FROM.menu.AttendanceInterface.resources
 C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\Client_Side\UserInformation_Project\obj\Debug\UserInformation_Project.FROM.menu.CalendarInterface.resources
 C:\Users\hhshin.HUENSYSTEM\Documents\Visual Studio 2013\Projects\UserInformation_Project\Client_Side\UserInformation_Project\obj\Debug\UserInformation_Project.FROM.menu.DrogscheduleInterface.resources
+C:\Users\hhshin.HUENSYSTEM\Desktop\개인\git\UserInformation_Project\Client_Side\UserInformation_Project\obj\Debug\UserInformation_Project.exe
+C:\Users\hhshin.HUENSYSTEM\Desktop\개인\git\UserInformation_Project\Client_Side\UserInformation_Project\obj\Debug\UserInformation_Project.pdb
